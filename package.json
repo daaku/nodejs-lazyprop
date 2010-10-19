@@ -1,0 +1,13 @@
+{
+  "name": "lazyprop",
+  "description": "Lazy properties.",
+  "version": "0.0.1",
+  "author": "Naitik Shah <n@daaku.org>",
+  "keywords": ["utils"],
+  "directories": { "lib": "./lib" },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/nshah/nodejs-lazyprop"
+  },
+  "engines": { "node": ">= 0.2.3" }
+}
