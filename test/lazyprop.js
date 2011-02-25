@@ -1,6 +1,7 @@
 var lazyprop = require('lazyprop')
+  , assert = require('assert')
 
-exports['simple prop'] = function(assert) {
+exports['simple prop'] = function() {
   var obj = {}
   assert.isUndefined(obj.answer, 'should not have the answer')
 
@@ -13,7 +14,7 @@ exports['simple prop'] = function(assert) {
   assert.ok(!obj.propertyIsEnumerable('answer'), 'should not be enumerable')
 }
 
-exports['custom prop descriptor'] = function(assert) {
+exports['custom prop descriptor'] = function() {
   var obj = {}
   assert.isUndefined(obj.answer, 'should not have the answer')
 
