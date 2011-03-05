@@ -7,7 +7,7 @@
   "main": "index",
   "repository": {
     "type": "git",
-    "url": "http://github.com/nshah/nodejs-lazyprop"
+    "url": "git://github.com/nshah/nodejs-lazyprop.git"
   },
   "engines": { "node": ">= 0.4.1" }
 }
