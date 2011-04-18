@@ -1,7 +1,7 @@
 {
   "name": "lazyprop",
   "description": "Lazy properties.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Naitik Shah <n@daaku.org>",
   "keywords": ["utils"],
   "main": "index",
@@ -9,5 +9,6 @@
     "type": "git",
     "url": "git://github.com/nshah/nodejs-lazyprop.git"
   },
+  "scripts": { "test": "./node_modules/.bin/expresso" },
   "engines": { "node": ">= 0.4.1" }
 }

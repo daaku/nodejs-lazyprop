@@ -1,4 +1,4 @@
-var lazyprop = require('lazyprop')
+var lazyprop = require('../index')
   , assert = require('assert')
 
 exports['simple prop'] = function() {
