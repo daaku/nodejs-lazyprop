@@ -1,4 +1,4 @@
-lazyprop
+lazyprop [![Build Status](https://secure.travis-ci.org/nshah/nodejs-lazyprop.png)](http://travis-ci.org/nshah/nodejs-lazyprop)
 ========
 
 Lazy properties for JavaScript. This allows for defining properties that are
