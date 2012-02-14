@@ -1,7 +1,7 @@
 {
   "name": "lazyprop",
   "description": "Lazy properties.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "https://github.com/nshah/nodejs-lazyprop",
   "author": "Naitik Shah <n@daaku.org>",
   "keywords": ["utils"],
@@ -10,9 +10,9 @@
     "type": "git",
     "url": "https://github.com/nshah/nodejs-lazyprop"
   },
-  "scripts": { "test": "NODE_PATH=./lib ./node_modules/.bin/mocha --ui exports" },
+  "scripts": { "test": "NODE_PATH=./lib mocha --ui exports" },
   "devDependencies": {
-    "mocha": ">= 0.12.0"
+    "mocha": "0.12.x"
   },
-  "engines": { "node": ">= 0.6.10" }
+  "engines": { "node": "0.6.x" }
 }
